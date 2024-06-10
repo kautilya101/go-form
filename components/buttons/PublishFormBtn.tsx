@@ -74,7 +74,7 @@ export default function PublishFormBtn({id}: {id: number}) {
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure?</AlertDialogTitle>
-          <AlertDialogDescription>After publishing you won't be able to edit this form.</AlertDialogDescription>
+          <AlertDialogDescription>After publishing you will not be able to edit this form.</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
           <AlertDialogCancel>Cancel</AlertDialogCancel>
