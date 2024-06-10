@@ -85,7 +85,8 @@ export default function PublishFormBtn({id}: {id: number}) {
                 e.preventDefault()
                 setTransition(updateFormContentData)
                 setTransition(publishLocalForm);
-              }} 
+              }}
+              className='flex gap-2'
             >
               Proceed 
               {loading && <FaSpinner className='animate-spin'/>}

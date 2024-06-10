@@ -28,6 +28,7 @@ export default function CreateFormButton() {
         title: "Success",
         description: "Successfully created!",
       })
+      console.log(formId);
       router.push(`/builder/${formId}`)
     }
     catch(e){
